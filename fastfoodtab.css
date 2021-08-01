@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .content{
+        width: auto;
+        height: 98vh;
+        position: absolute;
+        left: 30%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #2bfff480; */
+        justify-content: space-between;
+    }
+    .content h1{
+        width: max-content;
+        margin-top: 10px;
+        font-size: 55px;
+        /* background-color: #ffd445; */
+    }
+    .para{
+        margin-left: 10px;
+    }
+    .para p{
+        width: 100vh;
+        margin-top: 30%;
+        /* background-color: #bcff50; */
+    }
+    .card-item{
+        width: 110vh;
+        margin-left: 27px;
+        height: 36vh;
+        position: relative;
+        left: 25%;
+        /* background-color: #ff2cc0; */
+        align-items: center;
+    }
+    .pairs{
+        /* display: flex;  */
+        /* flex-wrap: wrap; */
+        /* position: absolute; */
+        /* left: 10%; */
+        width: 280px;
+        margin: -1px;
+        /* background-color: #7cff6a; */
+    }
+    .card{
+        width: 100px;
+        height: 138px;
+        margin: 10px;
+        /* background: yellow; */
+    }
+    .card img{
+        margin-top: 12px;
+        width: 80%;
+        height: 14vh;
+      }
+    .container {
+        margin-top: 13px;
+        padding-bottom: 10px;
+        /* background-color: mediumorchid; */
+      }
+}

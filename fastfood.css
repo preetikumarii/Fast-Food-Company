@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mob-nav{
+    display: none;
+}
+nav{
+    height: 90vh;
+    width: 25vh;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+}
+nav .logo{
+    height: 15vh;
+    display: flex;
+    font-family: 'Abril Fatface', cursive;
+    align-items: center;
+}
+.logo h1{
+    font-size: 28px;
+}
+nav .menu{
+    margin-top: 23px;
+    line-height: 3;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu a{
+    font-size: 18px;
+}
+nav .btn{
+    height: 10vh;
+    margin-top: 40px ;
+}
+.btn button{
+    width: 120px;
+    height: 45px;
+    border-radius: 39px / 35px;
+    font-size: 18px;
+    color: #ffff;
+    border: none;
+    background-color: #da5943;
+}
+.content{
+    position: absolute;
+    left: 20%;
+    height: 40vh;
+    display: inline-flex;
+    /* background-color: greenyellow; */
+}
+.content h1{
+    width: 100vh;
+    /* width: 630px; */
+     margin-right: 40px;
+    margin-top: 35px;
+    padding: 20px;
+    font-size:60px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+    /* background-color: #f1f16d; */
+}
+.para{
+    margin-left: -30px ;
+}
+.para p{
+    width: 50vh;
+    /* width: 180px; */
+    margin-top: 90px;
+    padding: 20px;
+    word-spacing: 1px;
+    font-size: 17px;
+    text-align: left;
+    /* background-color: #48ffd7; */
+}
+.para .line{
+    width: 110px;
+    position: absolute;
+    margin-left: 20px;
+    height: 3px;
+    background: rgb(235, 16, 16);
+}
+.card-item{
+    width:128vh ;
+    height: 44vh;
+    margin-left: 37vh;
+    position: relative;
+    bottom: -230px;
+    display: inline-flex;
+    /* background-color: #ff2cc0 */
+}
+.pairs{
+    display: inline-flex;
+}
+.card {
+    box-shadow: 2px 5px 8px 0 #00000069;
+    transition: 0.3s;
+    margin-top: 80px;
+    margin-left: 60px;
+    width:135px;
+    height: fit-content;
+    padding:10px;
+    text-align:center;
+    /* background-color:yellow; */
+    border-radius:10%;
+  }
+.card img{
+  margin-top:10px;
+  width:90%;
+  height: 18vh;
+  border-radius:50%;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    /* background-color: mediumorchid; */
+  }
+
+/* --------------------------mobile----------------------------------- */
+@media screen and (max-width: 480px){
+    nav{
+        display: none;
+    }
+    .mob-nav{
+        height: 10vh;
+        /* width: 53vh; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(83, 90, 87); */
+    }
+    .mob-nav h1{
+        font-size:30px;
+    letter-spacing: 2px;
+    font-family: 'Abril Fatface', cursive;
+    }
+    .mob-nav .icon{
+        color:deeppink;
+        font-size: 22px;
+    }
+    .content{
+        /* background-color: mediumpurple; */
+    width: 74%;
+    height: 100vh;
+    margin-left: -15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .content h1{
+        width: max-content;
+    margin: auto;
+    font-size: 35px;
+    /* background-color: #f1f16d; */
+    }
+    .para p{
+        width: 50vh;
+        margin-top: 75vh;
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        /* background-color: aquamarine; */
+    }
+    .para .line{
+        margin-left: 60px;
+        margin-top: -56px;
+    }
+    .card-item{
+    width: 50vh;
+    display: grid;
+    /* background-color: #ff2cc0; */
+    align-items: center;
+    align-content: center;
+    margin-left: 6%;
+
+    }
+    .pairs{
+        display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    }
+    .card {
+        box-shadow: 3px 4px 20px 0 #00000038;
+        margin-top: -10px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        width: 110px;
+        height: 148px;
+        padding: 14px;
+        /* background-color: yellow; */
+      }
+    .card img{
+        margin-top: 6px;
+        width: 88%;
+        height: 15vh;
+      }
+    .container {
+        margin-top: 13px;
+        padding-bottom: 10px;
+        /* background-color: mediumorchid; */
+      }
+}
